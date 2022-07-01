@@ -7,17 +7,11 @@
  */
 int main(void)
 {
-	char c = 'a';
-	char z = 'z';
-
-	z++;
-	while (c != (z))
+	short int c = 0;
+	
+	while (c != 10)
 	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
-		c++;
+		printf("%d",c++);
 	}
 	putchar('\n');
 

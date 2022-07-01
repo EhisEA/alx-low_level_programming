@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-	short int c = 0;
-	while (c != 10)
+	char c = 'a';
+	char z = 'z';
+
+	c--;
+	while (c != (z))
 	{
-		printf("%d", c++);
+		putchar(z--);
 	}
 	putchar('\n');
 

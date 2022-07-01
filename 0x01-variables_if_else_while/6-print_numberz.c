@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	short int c = 0;
+	int c = 0;
 	while (c != 10)
 	{
-		printf("%d", c++);
+		putchar(0);
+		c++;
 	}
 	putchar('\n');
 

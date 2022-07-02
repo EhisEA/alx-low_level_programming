@@ -18,7 +18,6 @@ int main(void)
 		}else
 		{
 		putchar(i == 0 ? '0' :  (i % 10 + startOfHex));
-		//putchar(i == 0 ? '0' :  (i % 16 + 'a'));
 		}
 	}
 	putchar('\n');
